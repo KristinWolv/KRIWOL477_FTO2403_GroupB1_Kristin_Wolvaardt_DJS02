@@ -16,7 +16,7 @@ form.addEventListener("submit", (event) => {
 
 // check for empty inputs
 if (!dividend || !divider) {
-  result.innerText + "Division not performed. Both values are required in inputs. Try agian.";
+  result.innerText = "Division not performed. Both values are required in inputs. Try agian.";
   return;
 }
 
